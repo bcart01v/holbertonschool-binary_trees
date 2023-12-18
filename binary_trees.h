@@ -77,4 +77,13 @@ size_t binary_tree_leaves(const binary_tree_t *tree);
 /*Count the nodes with at least 1 child*/
 size_t binary_tree_nodes(const binary_tree_t *tree);
 
+/*Calcualte balance factor of tree*/
+int binary_tree_balance(const binary_tree_t *tree);
+
+/*Get the height of a tree*/
+int tree_height(const binary_tree_t *tree);
+
+/*Get the max of two ints*/
+int maximum(int a, int b);
+
 #endif
