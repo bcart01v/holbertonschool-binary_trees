@@ -101,4 +101,7 @@ int reference_depth_left(const binary_tree_t *tree);
 /*Find the sibling to a node */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
+/*Find the uncle of a node*/
+binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+
 #endif
