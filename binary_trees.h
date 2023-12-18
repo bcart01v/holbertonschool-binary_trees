@@ -98,4 +98,7 @@ int recursive_is_perfect(const binary_tree_t *tree, int reference_depth, int lev
 /*Get depth for reference*/
 int reference_depth_left(const binary_tree_t *tree);
 
+/*Find the sibling to a node */
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+
 #endif
