@@ -19,7 +19,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 /**
  * recursive_is_perfect - Recursively check if the binary tree is perfect.
  * @tree: Pointer to the tree node being checked.
- * @reference_depth: Reference depth of the leftmost leaf node.
+ * @ref_depth: Reference depth of the leftmost leaf node.
  * @level: Current level of recursion.
  * Return: 1 if the tree is perfect, 0 otherwise or if the tree is NULL.
  */
