@@ -86,4 +86,8 @@ int tree_height(const binary_tree_t *tree);
 /*Get the max of two ints*/
 int maximum(int a, int b);
 
+/*Check for full tree*/
+int binary_tree_is_full(const binary_tree_t *tree);
+
+
 #endif
