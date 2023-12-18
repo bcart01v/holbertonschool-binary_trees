@@ -89,5 +89,13 @@ int maximum(int a, int b);
 /*Check for full tree*/
 int binary_tree_is_full(const binary_tree_t *tree);
 
+/*Check if our tree is perfect */
+int binary_tree_is_perfect(const binary_tree_t *tree);
+
+/*Recursive Tree Check */
+int recursive_is_perfect(const binary_tree_t *tree, int reference_depth, int level);
+
+/*Get depth for reference*/
+int reference_depth_left(const binary_tree_t *tree);
 
 #endif
